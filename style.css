@@ -1,0 +1,605 @@
+/*** Defaults ***/
+nav,header,footer {
+    display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Source+Serif+Pro:wght@300&display=swap');
+
+body{
+    line-height: 1;
+    margin: 0;
+    background-color:rgb(0, 0, 0) ;
+    background-size: cover;
+}
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    margin-left: 200px;
+    height: 40px;
+    display: none;
+}
+
+.navbar-brand, a, button{
+    font-family: "Lora";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    width: 300px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar-nav{
+    list-style: none;
+    float: right;
+}
+
+.navbar-nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-nav li a{
+    transition: all 0.30 ease 0s;
+    color: rgb(164, 158, 158);
+    border: 1px solid transparent;
+    width: 60px;
+    height: 40px;
+}
+
+.navbar-nav li a:hover, a:active{
+    color: rgb(127, 134, 132);
+    border: 1px solid white;
+    width: 60px;
+    height: 40px;
+}
+
+
+button{
+    padding: 15px 30px;
+    background-color: rgb(232, 232, 71);
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.30 ease 0s;
+}
+
+button:hover{
+    color: rgb(127, 134, 132);
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+h2{
+    color: white;
+    font-family: 'Times New Roman', serif;
+    translate: 170px;
+    font-size: 75px;
+    width: 800px;
+    text-align: left;
+}
+
+p1{
+    color: rgb(150, 149, 149);
+    display: block;
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    margin: 0px 170px;
+    width: 800px;
+    text-align:justify;
+    letter-spacing: 2px;
+    line-height: 22px;   
+}
+
+.logos{
+    margin: 50px 140px;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 16.67% 16.67% 16% 18% 22% 16.67%;
+}
+
+.sites{
+    display: flex;
+    margin: 50px 140px;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.left{
+    margin-left: 40px;
+    margin-right: 360px;
+    width: 360px;
+}
+
+.right{
+    margin-right: 60px;
+    width: 360px;
+    translate: 20px;
+}
+
+.title{
+    font-family: 'Times New Roman', serif;
+    padding: 20px 0px;
+    font-size: 45px;
+    width: 360px;
+    text-align: justify;
+    color: white;
+}
+
+.para{
+    color: rgb(150, 149, 149);
+    display: block;
+    width: 610px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    text-align:left;
+    letter-spacing: 2px;
+    line-height: 22px;   
+}
+
+.backg{
+    background-color: rgba(155, 155, 191, 0.349); 
+    height: 400px;
+}
+
+.part2{
+    display: flex;
+    margin: 50px 140px;
+    flex-wrap: wrap;
+    align-self: left;  
+    height: 400px;
+}
+
+h3{
+    font-family: 'Times New Roman', serif;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    width: 560px;
+    text-align: justify;
+    color: white;
+}
+
+.para2{
+    color: rgb(150, 149, 149);
+    display: block;
+    width: 550px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.para3{
+    color: rgb(150, 149, 149);
+    display: block;
+    width: 550px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    line-height: 22px;  
+}
+
+.para4{
+    color: rgb(150, 149, 149);
+    display: block;
+    width: 550px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    text-align:left;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    line-height: 22px;   
+}
+
+ h4{
+    color: white;
+    font-family: 'Times New Roman', serif;
+    translate: 170px;
+    font-size: 45px;
+    width: 600px;
+    text-align: justify; 
+    margin-top: 70px;   
+ }
+
+ p10{
+    color: rgb(150, 149, 149);
+    display: block;
+    font-family: 'Verdana', sans-serif;
+    font-size: 17px;
+    margin: 0px 170px;
+    width: 560px;
+    text-align:justify; 
+    line-height: 22px;   
+ }
+
+ .part3 button{
+    margin-top: 20px;
+    translate: 170px;
+    margin-bottom: 70px;
+ }
+
+.part4{
+    background-color: rgba(155, 155, 191, 0.349);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h5{
+    font-family: "Lora";
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+    translate: 170px;
+}
+
+.socialicons{
+    list-style: none;
+    float: right;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+
+.socialicons li{
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.socialicons li a{
+    transition: all 0.30 ease 0s;
+}
+
+
+/* MobileView */
+@media only screen and (max-width:700px){
+    
+    .navbar-nav{
+        width: 100%;
+        background: black;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .navbar-nav li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+    }
+
+    .getintouch{
+        display: none;
+    }
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    .navbar-toggler-icon{
+        display: block;
+    }
+
+    h2{
+        translate: 55px 8%;
+        font-size: 60px;
+        width:500px
+    }
+
+    p1{
+        width: 500px;
+        margin: 0px 55px;
+        margin-top: 50px;
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .logos{
+        margin: 35px 90px;
+        margin-top: 80px;
+        width: 500px;
+        grid-template-columns: 50% 70%;
+        grid-template-rows: 50px 50px;
+        align-content: center;
+    }
+
+    .sites{
+        margin: 30px 0px;
+    }
+
+    .left{
+        width: 600px;
+    }
+
+    .image{
+        width: 600px;
+        height: 430px;
+    }
+
+    .right{
+        margin-right: 0px;
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    .title{
+        margin-top: 20px;
+        font-size: 70px;
+    }
+
+    .para{
+         font-size: 23px;
+         line-height: 35px;
+         width: 570px;
+         margin-bottom: 80px;
+    }
+
+    .backg{
+        height: 1650px;
+    }
+
+    .part2{
+        margin-left: 10px;
+    }
+
+    h3{
+        margin-top: 100px;
+        font-size: 65px;
+        width: 600px;
+        text-align: left;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+
+    .para2, .para3, .para4{
+        font-size: 25px;
+        line-height: 40px;
+        width: 600px;
+        margin-bottom: 30px;
+    }
+
+    .para3{
+        margin-top: 95px;
+    }
+
+    .para4{
+        margin-top: 45px;
+    }
+
+    h4{
+        translate: 50px;
+        font-size: 70px;
+        margin-top: 120px;
+    }
+
+    p10{
+        font-size: 25px;
+        margin: 0px 50px;
+        line-height: 35px;
+        width: 580px;
+    }
+
+    .part3 button{
+        margin-top: 30px;
+        translate: 50px;
+        margin-bottom: 50px;
+        width: 270px;
+        height: 80px;
+        font-size: 30px;
+        font-weight: 500;
+     }    
+    
+    .part3{
+        height: 530px;
+    }
+
+    .part4{
+        height: 120px;
+    }
+
+    h5{
+        translate: 70px;
+        font-size: 35px;
+    }
+
+    .imgs{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* TabletView */
+@media (max-width:1200px) and (min-width:700px ){
+
+    .navbar-nav{
+        width: 100%;
+        background: black;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .navbar-nav li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+        margin-left: 900px;
+    }
+
+    .getintouch{
+        display: none;
+    }
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    h1{
+        margin-left: -40px;
+    }
+
+    .navbar-toggler-icon{
+        background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 255.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        margin-left: 1000px;
+        height: 40px;
+        display: inline-block;
+    }
+
+    h2{
+        translate: 55px 8%;
+        font-size: 80px;
+        width:1000px
+    }
+
+    p1{
+        width: 850px;
+        margin: 0px 55px;
+        margin-top: 50px;
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 25px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .logos{
+        margin: 35px 90px;
+        margin-top: 90px;
+        width: 600px;
+        grid-template-columns: 50% 70% 70%;
+        grid-template-rows: 50px 50px 50px;
+        align-content:center;
+        margin-bottom: 60px;
+    }
+
+    .sites{
+        margin: 30px 0px;
+    }
+
+    .left{
+        width: 900px;
+    }
+
+    .image{
+        width: 900px;
+        height: 400px;
+    }
+
+    .right{
+        margin-right: 0px;
+        margin-left: 20px;
+        width: 900px;
+    }
+
+    .title{
+        margin-top: 20px;
+        font-size: 70px;
+    }
+
+    .para{
+         font-size: 20px;
+         line-height: 35px;
+         width: 900px;
+         margin-bottom: 80px;
+    }
+
+    .backg{
+        height: 1200px;
+    }
+
+    .part2{
+        margin-left: 10px;
+    }
+
+    h3{
+        margin-top: 60px;
+        font-size: 60px;
+        width: 850px;
+        text-align: left;
+        line-height: 80px;
+        margin-bottom: 30px;
+    }
+
+    .para2, .para3, .para4{
+        font-size: 25px;
+        line-height: 40px;
+        width: 900px;
+        margin-bottom: 40px;
+    }
+
+    .para3{
+        margin-top: 40px;
+    }
+
+    .para4{
+        margin-top: 45px;
+    }
+
+    h4{
+        translate: 50px;
+        font-size: 50px;
+        margin-top: 90px;
+        width: 750;
+        letter-spacing: 0px;
+    }
+
+    p10{
+        font-size: 25px;
+        margin: 0px 50px;
+        line-height: 35px;
+        width: 750px;
+    }
+
+    .part3 button{
+        margin-top: 30px;
+        translate: 50px;
+        margin-bottom: 50px;
+        width: 270px;
+        height: 80px;
+        font-size: 30px;
+        font-weight: 500;
+     }    
+    
+    .part3{
+        height: 450px;
+    }
+
+    .part4{
+        height: 100px;
+    }
+
+    h5{
+        translate: 70px;
+        font-size: 30px;
+    }
+
+    .imgs{
+        width: 30px;
+        height: 30px;
+    }
+
+}
